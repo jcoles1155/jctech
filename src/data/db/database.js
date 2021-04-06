@@ -320,12 +320,12 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'Markdown & Html supported blog.',
-      featuredImage: '/images/blog-image-1.jpg',
+      title: 'Deploying a React site on Netlify',
+      featuredImage: '/images/netlify-logo.jpg',
       filesource: '../../blog/markdown-html-supported-blog.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
+      createDay: "6",
+      createMonth: 'April',
+      createYear: "2021"
     },
     // {
     //   id: 2,
