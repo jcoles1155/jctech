@@ -85,7 +85,7 @@ function About() {
                   My name is <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  Hey there!  I build things.  Welcome to my world.  I'm into quite an array of different hobbies but most recently I've taken up coding in javascript with React!  Follow me on my coding journey!
+                  Hey there!  Welcome to my world.  I'm into quite an array of different hobbies from brewing beer and playing music to shooting video and surfing; but most recently I've taken up coding in javascript with React!  Follow me on my coding journey!
                 </p>
                 <ul>
                   {!information.name ? null : (

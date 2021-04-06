@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'JC Coles',
-    aboutContent: "Full Stack Web Developer with a passion for creating great products. I enjoy building things and using my hands when not creating web apps.  Take a look at some of my other work!",
+    aboutContent: "Full Stack Web Developer with a passion for creating great products.  When I'm not busy building websites you can catch me surfing in Ventura, CA with a guitar in one hand and a beer in the other.  Dive in and take a look at some of my work!",
     age: 26,
     phone: '6613192747',
     nationality: 'American',
@@ -22,25 +22,25 @@ const database = {
       instagram: 'https://www.instagram.com/jcoles1155/'
     },
     brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    aboutImage: '/images/winery-family.jpg',
+    aboutImageLg: '/images/family-winery-large.jpg',
     cvfile: '/files/jc_coles_resume.pdf'
   },
   services: [
     {
-      title: "Web Design",
+      title: "Frontend Web Design",
       icon: 'color-pallet',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "With a strong sense of common frontend technologies like SASS, Bootstrap, and JQuery, I know we can build something that looks great!"
     },
     {
-      title: "Web Development",
+      title: "Backend Web Development",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Using modern backend tools built on Node like Express and MongoDB; as well as relational databases with PostgreSQL; I'm excited to work on projects that have larger and more complex codebases!"
     },
     {
-      title: "Mobile Application",
-      icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      title: "Creative Direction",
+      icon: 'camera',
+      details: "From videography to music production I've worked on enough projects to find a solution that could fit your next project.  Check out the content and let's collaborate!"
     }
   ],
   reviews: [
@@ -72,19 +72,19 @@ const database = {
   skills: [
     {
       title: "Javascript",
-      value: 70
+      value: 60
     },
     {
       title: "Express",
-      value: 60
+      value: 50
     },
     {
       title: "MongoDB",
-      value: 60
+      value: 50
     },
     {
       title: "SQL",
-      value: 50
+      value: 30
     },
     {
       title: "ReactJS",
@@ -92,35 +92,33 @@ const database = {
     },
     {
       title: "Python",
-      value: 65
+      value: 40
     }
   ],
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "Gigboard",
+      subtitle: "Simple yet fun React app on a Mongo database, using github to help collaborate on a 6 person team",
+      imageUrl: "/images/gigboard.png",
+      largeImageUrl: ["/images/gigboardLRG.png"],
+      url: 'https://gig-board.herokuapp.com/'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      title: "BeerFinder",
+      subtitle: "Express app using MongoDB and mongoose to have full CRUD functionality.",
+      imageUrl: "/images/beerfinder.png",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
+        "/images/beerfinder.png"],
+      url: 'https://arcane-tundra-61980.herokuapp.com/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Game of Pure Strategy",
+      subtitle: "Card game built with jquery using common best practices and basic principles",
+      imageUrl: "/images/GOPS.png",
+      url: 'https://jcoles1155.github.io/GOPS/index.html'
     },
     // {
     //   id: 4,
@@ -283,46 +281,39 @@ const database = {
       {
         id: 1,
         year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        position: "Network Technician",
+        company: "Surfline",
+        details: "Assisted in the installation of cameras and managed ventura county camera maintenence and upgrades."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2017 - Present",
+        position: "Machinist, Office Assistant",
+        company: "Coles Carbide Corporation",
+        details: "Operate shop machinery when needed and managed website as well as other office tasks."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - 2020",
+        position: "Cellar Person",
+        company: "Madewest Brewing Company",
+        details: "Facilitated cellar operations in preperation for and during brews, including the dry hopping of most of our beers.  Assisted in the packaging and canning of all beer manufactured."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2020 - 2021",
+        graduation: "Software Engineering Immersive",
+        university: "General Assembly",
+        details: "Software Engineering program with a focus in Javascript in the MERN stack.  Skills in React were supplemented with aknowledge of python in Django, and SQL in PostgreSQL"
       },
       {
         id: 2,
         year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        graduation: "General Education",
+        university: "Ventura College",
+        details: "Emphasis on computer science dabbling in java, python, and basic web technologies in the LAMP stack."
       }
     ]
   },
@@ -464,9 +455,9 @@ const database = {
     // }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['661-319(2747)'],
+    emailAddress: ['jcoles1155@gmail.com'],
+    address: "880 Buena Vista st, 93001"
   }
 }
 
