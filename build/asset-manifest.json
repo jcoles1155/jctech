@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4e80cbc.chunk.css",
+    "main.js": "/static/js/main.64f10ef6.chunk.js",
+    "main.js.map": "/static/js/main.64f10ef6.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.f933d74f.js",
+    "runtime~main.js.map": "/static/js/runtime~main.f933d74f.js.map",
+    "static/css/2.48c3d4a3.chunk.css": "/static/css/2.48c3d4a3.chunk.css",
+    "static/js/2.ef523895.chunk.js": "/static/js/2.ef523895.chunk.js",
+    "static/js/2.ef523895.chunk.js.map": "/static/js/2.ef523895.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5f9823abc982cabde90baee0a3efa7ca.js": "/precache-manifest.5f9823abc982cabde90baee0a3efa7ca.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.48c3d4a3.chunk.css.map": "/static/css/2.48c3d4a3.chunk.css.map",
+    "static/css/main.b4e80cbc.chunk.css.map": "/static/css/main.b4e80cbc.chunk.css.map",
+    "static/media/markdown-html-supported-blog.md": "/static/media/markdown-html-supported-blog.ab93b649.md",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  }
+}
