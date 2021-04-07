@@ -35,12 +35,12 @@ const database = {
     {
       title: "Backend Web Development",
       icon: 'code',
-      details: "Using modern backend tools built on Node like Express and MongoDB; as well as relational databases with PostgreSQL; I'm excited to work on projects that have larger and more complex codebases!"
+      details: "Using modern backend tools built with Node like Express and MongoDB, as well as relational databases with PostgreSQL; I'm excited to work on projects that have larger and more complex codebases!"
     },
     {
-      title: "Creative Direction",
+      title: "Content Creation",
       icon: 'camera',
-      details: "From videography to music production I've worked on enough projects to find a solution that could fit your next project.  Check out the content and let's collaborate!"
+      details: "From videography to music production I've worked on enough projects to find a solution with the Adobe suite that could fit your next projects needs.  Check out my content and let's collaborate!"
     }
   ],
   reviews: [
