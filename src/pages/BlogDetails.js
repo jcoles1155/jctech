@@ -30,10 +30,10 @@ function BlogDetails(props) {
         <div className="container">
           <ReactMarkdown source={content} escapeHtml={false}></ReactMarkdown>
           <div className="mi-blog-details-comments mt-30">
-            <Disqus.DiscussionEmbed
+            {/* <Disqus.DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
-            />
+            /> */}
           </div>
         </div>
       </div>
