@@ -103,14 +103,14 @@ function About() {
                       <b>Phone</b> {information.phone}
                     </li>
                   )} */}
-                  {!information.nationality ? null : (
+                  {!information.location ? null : (
                     <li>
-                      <b>Nationality</b> {information.nationality}
+                      <b>Location</b> {information.location}
                     </li>
                   )}
                   {!information.language ? null : (
                     <li>
-                      <b>Languages</b> {information.language}
+                      <b>Language</b> {information.language}
                     </li>
                   )}
                   {!information.email ? null : (
