@@ -88,11 +88,11 @@ function About() {
                   Hey there!  Welcome to my world.  I'm into quite an array of different hobbies from brewing beer and playing music to shooting video and surfing; but most recently I've taken up coding in javascript with React!  Follow me on my coding journey!
                 </p>
                 <ul>
-                  {!information.name ? null : (
+                  {/* {!information.name ? null : (
                     <li>
                       <b>Full Name</b> {information.name}
                     </li>
-                  )}
+                  )} */}
                   {!information.age ? null : (
                     <li>
                       <b>Age</b> {information.age} Years
@@ -130,7 +130,7 @@ function About() {
                   )}
                 </ul>
                 <a href={information.cvfile} className="mi-button">
-                  Download CV
+                  Download Resume
                 </a>
               </div>
             </div>
