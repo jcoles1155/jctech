@@ -1,13 +1,13 @@
 import axios from "axios";
-// import Disqus from "disqus-react";
+import Disqus from "disqus-react";
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown/with-html";
 import Layout from "../components/Layout";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");
-  // const blogId = props.match.params.id;
-  // const blogFile = props.match.params.title;
+  const blogId = props.match.params.id;
+  const blogFile = props.match.params.title;
 
   useEffect(() => {
     axios
@@ -17,12 +17,12 @@ function BlogDetails(props) {
       })
   }, [content, blogFile]);
 
-  // const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
-  // const disqusConfig = {
-  //   url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
-  //   identifier: blogId,
-  //   title: blogFile
-  // };
+  const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
+  const disqusConfig = {
+    url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
+    identifier: blogId,
+    title: blogFile
+  };
 
   return (
     <Layout>
@@ -30,10 +30,10 @@ function BlogDetails(props) {
         <div className="container">
           <ReactMarkdown source={content} escapeHtml={false}></ReactMarkdown>
           <div className="mi-blog-details-comments mt-30">
-            {/* <Disqus.DiscussionEmbed
+            <Disqus.DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
-            /> */}
+            />
           </div>
         </div>
       </div>
