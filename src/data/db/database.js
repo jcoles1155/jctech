@@ -6,7 +6,7 @@ const database = {
     aboutContent: "Full Stack Web Developer with a passion for creating great products.  When I'm not busy building websites you can catch me surfing in Ventura, CA with a guitar in one hand and a beer in the other.  Dive in and take a look at some of my work!",
     age: 26,
     phone: '6613192747',
-    nationality: 'American',
+    nationality: 'United States',
     language: 'English',
     email: 'jcoles1155@gmail.com',
     address: '880 Buena Vista st 93001',
