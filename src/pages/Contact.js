@@ -5,9 +5,9 @@ import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 
 function Contact(){
-  const [phoneNumbers, setPhoneNumbers] = useState([]);
+  // const [phoneNumbers, setPhoneNumbers] = useState([]);
   const [emailAddress, setEmailAddress] = useState([]);
-  const [address, setAddress] = useState([]);
+  // const [address, setAddress] = useState([]);
   const [formdata, setFormdata] = useState({
     name: "",
     email: "",
@@ -42,10 +42,10 @@ function Contact(){
       [event.currentTarget.name] : event.currentTarget.value
     })
   }
-  const numberFormatter = (number) =>{
-    const phnNumber = number;
-    return phnNumber;
-  }
+  // const numberFormatter = (number) =>{
+    // const phnNumber = number;
+    // return phnNumber;
+  // }
 
   const handleAlerts = () => {
     if(error && message){
@@ -68,9 +68,9 @@ function Contact(){
   useEffect(() => {
     axios.get('/api/contactinfo')
       .then(response =>{
-        setPhoneNumbers(response.data.phoneNumbers);
+        // setPhoneNumbers(response.data.phoneNumbers);
         setEmailAddress(response.data.emailAddress);
-        setAddress(response.data.address);
+        // setAddress(response.data.address);
       })
   }, [])
 
@@ -109,7 +109,7 @@ function Contact(){
             </div>
             <div className="col-lg-6">
               <div className="mi-contact-info">
-                {!phoneNumbers ? null : (
+                {/* {!phoneNumbers ? null : (
                   <div className="mi-contact-infoblock">
                     <span className="mi-contact-infoblock-icon">
                       <Icon.Phone/>
@@ -121,7 +121,7 @@ function Contact(){
                       ))}
                     </div>
                   </div>
-                )}
+                )} */}
                 {!emailAddress ? null : (
                   <div className="mi-contact-infoblock">
                     <span className="mi-contact-infoblock-icon">
@@ -135,7 +135,7 @@ function Contact(){
                     </div>
                   </div>
                 )}
-                {!phoneNumbers ? null : (
+                {/* {!phoneNumbers ? null : (
                   <div className="mi-contact-infoblock">
                     <span className="mi-contact-infoblock-icon">
                       <Icon.MapPin/>
@@ -145,7 +145,7 @@ function Contact(){
                       <p>{address}</p>
                     </div>
                   </div>
-                )}
+                )} */}
               </div>
             </div>
           </div>
