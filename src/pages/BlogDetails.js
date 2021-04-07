@@ -6,8 +6,8 @@ import Layout from "../components/Layout";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");
-  const blogId = props.match.params.id;
-  const blogFile = props.match.params.title;
+  // const blogId = props.match.params.id;
+  // const blogFile = props.match.params.title;
 
   useEffect(() => {
     axios
