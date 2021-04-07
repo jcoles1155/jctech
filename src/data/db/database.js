@@ -16,7 +16,7 @@ const database = {
       twitter: 'https://twitter.com/jcoles1155',
       pinterest: '',
       behance: '',
-      linkedin: 'https://www.linkedin.com/in/nicholas-coles-314495a6/',
+      linkedin: 'https://www.linkedin.com/in/nicholas-jc-coles-314495a6/',
       dribbble: '',
       github: 'https://github.com/jcoles1155',
       instagram: 'https://www.instagram.com/jcoles1155/'
