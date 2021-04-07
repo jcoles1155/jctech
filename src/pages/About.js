@@ -98,11 +98,11 @@ function About() {
                       <b>Age</b> {information.age} Years
                     </li>
                   )}
-                  {!information.phone ? null : (
+                  {/* {!information.phone ? null : (
                     <li>
                       <b>Phone</b> {information.phone}
                     </li>
-                  )}
+                  )} */}
                   {!information.nationality ? null : (
                     <li>
                       <b>Nationality</b> {information.nationality}
@@ -118,11 +118,11 @@ function About() {
                       <b>Email</b> {information.email}
                     </li>
                   )}
-                  {!information.address ? null : (
+                  {/* {!information.address ? null : (
                     <li>
                       <b>Address</b> {information.address}
                     </li>
-                  )}
+                  )} */}
                   {!information.freelanceStatus ? null : (
                     <li>
                       <b>Freelance</b> {information.freelanceStatus}
