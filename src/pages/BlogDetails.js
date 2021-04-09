@@ -19,7 +19,7 @@ function BlogDetails(props) {
 
   const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
   const disqusConfig = {
-    url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
+    url: "https://tf-react-chester.now.sh/", //Homepage link of this site. fuck you
     identifier: blogId,
     title: blogFile
   };
