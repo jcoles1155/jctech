@@ -306,7 +306,7 @@ const database = {
         year: "2020 - 2021",
         graduation: "Software Engineering Immersive",
         university: "General Assembly",
-        details: "Software Engineering program with a focus in Javascript in the MERN stack.  Skills in React were supplemented with aknowledge of python in Django, and SQL in PostgreSQL"
+        details: "Software Engineering program with a focus in Javascript in the MERN stack.  Skills in React were supplemented with a knowledge of python in Django, and SQL in PostgreSQL"
       },
       {
         id: 2,
