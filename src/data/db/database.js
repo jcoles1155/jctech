@@ -288,7 +288,7 @@ const database = {
       {
         id: 2,
         year: "2017 - Present",
-        position: "Machinist, Office Assistant",
+        position: "Office Administrator, Machinist",
         company: "Coles Carbide Corporation",
         details: "Operate shop machinery when needed and managed website as well as other office tasks."
       },
