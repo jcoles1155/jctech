@@ -283,14 +283,14 @@ const database = {
         year: "2018 - Present",
         position: "Network Technician",
         company: "Surfline",
-        details: "Assisted in the installation of cameras and managed ventura county camera maintenence and upgrades."
+        details: "Install cameras and routers, as well as troubleshoot equipment in my region."
       },
       {
         id: 2,
         year: "2017 - Present",
         position: "Office Administrator, Machinist",
         company: "Coles Carbide Corporation",
-        details: "Operate shop machinery when needed and managed website as well as other office tasks."
+        details: "Managed the implementation of the inventory and warehouse management systems and software.  Operate precision metalworking and laser etching machinery."
       },
       {
         id: 3,
