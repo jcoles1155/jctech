@@ -46,26 +46,26 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "JC was awesome throughout and made us double check our work to make sure what we had was working. Very happy with his performance and how he handled certain problems/bugs that we were facing. He was on of the few people in our team that switched heavily between frontend and backend.",
+      content: "JC was awesome throughout and made us double check our work to make sure what we had was working. Very happy with his performance and how he handled certain problems/bugs that we were facing. He was one of the few people in our team that switched heavily between frontend and backend.",
       author: {
         name: '',
-        designation: 'Classmate, General Assembly'
+        designation: 'Teammate, General Assembly'
       }
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "JC killed it!  He is a professional project/product manager that could be running his own team!  He made room for testing, pre-production, and contributed heavily on both front and back end!.",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
+        name: '',
+        designation: 'Teammate, General Assembly'
       }
     },
     {
       id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      content: "Pleasure to work with; crushed it in the front and the back end.",
       author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
+        name: '',
+        designation: 'Teammate, General Assembly'
       }
     }
   ],
@@ -92,20 +92,28 @@ const database = {
     },
     {
       title: "Python",
-      value: 40
+      value: 60
     }
   ],
   portfolios: [
     {
       id: 1,
+      title: "Carsio",
+      subtitle: "Car fanpage app built with Django in python using PostgreSQL as the database, and Heroku to host the site.",
+      imageUrl: "/images/carsio.png",
+      largeImageUrl: ["/images/carsio.png"],
+      url: 'https://gig-board.herokuapp.com/'
+    },
+    {
+      id: 2,
       title: "Gigboard",
-      subtitle: "Simple yet fun React app on a Mongo database, using github to help collaborate on a 6 person team",
+      subtitle: "Simple yet fun React app on a Mongo database, using github to help collaborate on a 6 person team.",
       imageUrl: "/images/gigboard.png",
       largeImageUrl: ["/images/gigboardLRG.png"],
       url: 'https://gig-board.herokuapp.com/'
     },
     {
-      id: 2,
+      id: 3,
       title: "BeerFinder",
       subtitle: "Express app using MongoDB and mongoose to have full CRUD functionality.",
       imageUrl: "/images/beerfinder.png",
@@ -114,7 +122,7 @@ const database = {
       url: 'https://arcane-tundra-61980.herokuapp.com/'
     },
     {
-      id: 3,
+      id: 4,
       title: "Game of Pure Strategy",
       subtitle: "Card game built with jquery using common best practices and basic principles",
       imageUrl: "/images/GOPS.png",
