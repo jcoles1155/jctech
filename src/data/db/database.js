@@ -46,10 +46,10 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      content: "JC was awesome throughout and made us double check our work to make sure what we had was working. Very happy with his performance and how he handled certain problems/bugs that we were facing. He was on of the few people in our team that switched heavily between frontend and backend.",
       author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
+        name: '',
+        designation: 'Classmate, General Assembly'
       }
     },
     {
