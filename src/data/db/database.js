@@ -102,7 +102,7 @@ const database = {
       subtitle: "Car fanpage app built with Django in python using PostgreSQL as the database, and Heroku to host the site.",
       imageUrl: "/images/carsio.png",
       largeImageUrl: ["/images/carsio.png"],
-      url: 'https://gig-board.herokuapp.com/'
+      url: 'https://carsio.herokuapp.com/'
     },
     {
       id: 2,
